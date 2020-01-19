@@ -1,6 +1,6 @@
 password = 'a123456'
 i = 3
-while True:
+while i > 0:
 	pwd = input('Enter password: ')
 	if pwd == password:
 		print('Success')
@@ -10,4 +10,4 @@ while True:
 		print('wrong still have', i, 'chance')
 		if i == 0:
 			print('failed')
-			break
+	
